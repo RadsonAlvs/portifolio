@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --skin-color: #ec1839;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +24,15 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.containerSection.active {
+  position: initial;
+}
+
+@media (max-width: 1200px) {
+  .containerSection {
+    /* seus estilos para telas menores */
   }
 }

@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         secondary: "var(--second-font)",
       },
+      screens: {
+        lg: { max: "1200px" },
+        md: { max: "426px" },
+      },
     },
   },
   plugins: [],

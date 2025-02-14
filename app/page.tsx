@@ -1,6 +1,6 @@
 import Profile from "./Components/Profile/profile";
 import photo from "./Assets/img/perfil.webp";
-import SwitcherColor from "./Components/switcherColor";
+import SwitcherColor from "./Components/SwitcherColor/switcherColor";
 
 export default function Home() {
   return (
