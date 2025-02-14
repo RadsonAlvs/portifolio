@@ -9,6 +9,15 @@ module.exports = {
       fontFamily: {
         secondary: "var(--second-font)",
       },
+      spacing: {
+        "5": "1.25rem",
+      },
+      borderWidth: {
+        "5": "5px",
+      },
+      tracking: {
+        widest: "5px",
+      },
       screens: {
         lg: { max: "1200px" },
         md: { max: "426px" },

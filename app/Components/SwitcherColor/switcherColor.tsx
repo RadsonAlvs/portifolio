@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { useModal } from "./Context/ModalContext";
+import { useModal } from "../Context/ModalContext";
 
 const colors = [
   { name: "color1", color: "#ec1839" },
