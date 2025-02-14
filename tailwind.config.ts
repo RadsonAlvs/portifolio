@@ -22,6 +22,13 @@ module.exports = {
         lg: { max: "1200px" },
         md: { max: "426px" },
       },
+      width: {
+        "270": "270px",
+      },
+      zIndex: {
+        "40": "40",
+        "50": "50",
+      },
     },
   },
   plugins: [],
