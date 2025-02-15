@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ModalProvider } from "./Components/Context/ModalContext";
 import Header from "./Components/Header/Header";
+import SwitcherColor from "./Components/SwitcherColor/SwitcherColor";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +41,9 @@ export default function RootLayout({
             <main className="flex-1 ml-[270px] lg:ml-0 transition-all duration-300">
               {children}
             </main>
+            <div>
+              <SwitcherColor />
+            </div>
           </div>
         </ModalProvider>
       </body>
